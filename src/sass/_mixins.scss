@@ -27,3 +27,7 @@ $pc: 980px;
   }
 }
 
+@mixin row {
+    display: flex;
+    flex-direction: row;
+}

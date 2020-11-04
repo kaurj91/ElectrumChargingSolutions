@@ -1,0 +1,41 @@
+
+.footer{
+    font-family: $font-content;
+    padding: 30px 0px;
+    background-color: $grey;
+    color: $white;
+    width: 100%;
+    hr{
+        width: 90%;
+    }
+    .footer-info{
+        margin-bottom: 50px;;
+        @include row;
+        justify-content: space-around;
+    }
+    .social-media{
+        width: 30%;
+        .icons-social{
+        @include row;
+        svg{
+            width: 80px;
+            height: 80px;
+            margin: 0px 30px 0px 0px;
+            color: $white;
+            text-decoration: none;
+        }
+        svg:hover{
+            color: $greyLight; 
+        }
+        }
+    }
+
+    a{
+        color: $white;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: $greyLight; 
+    }
+}

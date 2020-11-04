@@ -5,6 +5,7 @@ import FAQ from "./FAQ";
 import Contact from "./Contact";
 import Home from "./Home";
 import Products from "./Products";
+import Footer from "../components/Footer"
 import "../sass/style.scss";
 
 
@@ -19,7 +20,8 @@ export default class index extends Component {
                     <EVIncentives path="/incentives" />
                     <Contact path="/contact" />
                 </Router>
-                
+
+                <Footer />
             </div>
         )
     }
