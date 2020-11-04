@@ -5,6 +5,7 @@ import FAQ from "./FAQ";
 import Contact from "./Contact";
 import Home from "./Home";
 import Products from "./Products";
+import "../sass/style.scss";
 
 
 export default class index extends Component {
