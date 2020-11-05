@@ -9,6 +9,12 @@ $pc: 980px;
   }
 }
 
+@mixin spandtb {
+  @media (min-width: $tb) {
+    @content;
+  }
+}
+
 @mixin tb {
   @media (min-width: $sp) and (max-width: $pc) {
     @content;

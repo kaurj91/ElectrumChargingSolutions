@@ -7,8 +7,6 @@
  import Youtube from '../../assets/icons/youtube.svg';
 
 
-
-
  const Footer = () =>{
     const year = new Date().getFullYear() 
      return (
@@ -22,7 +20,7 @@
                     <p>{businessInfo.phone}</p>
                 </div>
 
-                <div>
+                <div className="links">
                     <h3>Find out more</h3>
                     <p><a href="/faq">FAQ</a></p>
                     <p><a href="/incentives">EV Incentive Programs</a></p>
@@ -40,7 +38,8 @@
                 </div>
              </div>
              <hr></hr>
-             <p style={{textAlign: "center"}}>Copyright { year } Electrum Charging Solutions</p>
+             <p className="copyRight">Copyright { year } Electrum Charging Solutions</p>
+             <hr></hr>
          </footer>
      )
  }

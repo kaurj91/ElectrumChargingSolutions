@@ -20,8 +20,8 @@ export default class index extends Component {
                     <EVIncentives path="/incentives" />
                     <Contact path="/contact" />
                 </Router>
+                    <Footer />
 
-                <Footer />
             </div>
         )
     }
