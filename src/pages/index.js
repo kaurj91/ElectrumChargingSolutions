@@ -16,7 +16,7 @@ export default class index extends Component {
                     <Router>
                         <Home path="/" />
                         <Products path="/Products" />
-                        <FAQ path="/Faq" />
+                        <FAQ path="/FAQ" />
                         <EVIncentives path="/EVIncentives" />
                         <Contact path="/Contact" />
                     </Router>

@@ -22,7 +22,7 @@
 
                 <div className="links">
                     <h3>Find out more</h3>
-                    <p><Link to="/Faq">FAQ</Link></p>
+                    <p><Link to="/FAQ">FAQ</Link></p>
                     <p><Link to="/EVIncentives">EV Incentive Programs</Link></p>
                     <p><Link to="/Products">Our Products</Link></p>
                     <p><Link to="/Contact">Contact us</Link></p>
