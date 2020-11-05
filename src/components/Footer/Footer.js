@@ -1,6 +1,6 @@
 
  import React from 'react';
- import { Router } from "@reach/router";
+ import Link from 'gatsby-link'
  import {businessInfo} from '../../theme/bussinesInfo'
  import Facebook from '../../assets/icons/facebook.svg';
  import Twitter from '../../assets/icons/twitter.svg';
@@ -22,10 +22,10 @@
 
                 <div className="links">
                     <h3>Find out more</h3>
-                    <p><a href="/faq">FAQ</a></p>
-                    <p><a href="/incentives">EV Incentive Programs</a></p>
-                    <p><a href="/products">Our Products</a></p>
-                    <p><a href="/contact">Contact us</a></p>
+                    <p><Link to="/Faq">FAQ</Link></p>
+                    <p><Link to="/EVIncentives">EV Incentive Programs</Link></p>
+                    <p><Link to="/Products">Our Products</Link></p>
+                    <p><Link to="/Contact">Contact us</Link></p>
                 </div>
 
                 <div className="social-media">
