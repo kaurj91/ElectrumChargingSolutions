@@ -31,9 +31,9 @@
                 <div className="social-media">
                     <h3>Visit us at</h3>
                     <div className="icons-social">
-                        <a  href={businessInfo.facebook}><Facebook /></a>
-                        <a  href={businessInfo.twitter}><Twitter /></a>
-                        <a  href={businessInfo.youtube}><Youtube /></a>
+                        <a  target="_blank" href={businessInfo.facebook}><Facebook /></a>
+                        <a  target="_blank" href={businessInfo.twitter}><Twitter /></a>
+                        <a  target="_blank" href={businessInfo.youtube}><Youtube /></a>
                     </div>
                 </div>
              </div>
