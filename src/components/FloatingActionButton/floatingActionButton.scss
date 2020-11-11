@@ -11,4 +11,23 @@
    // position: fixed;
 }
 
+.fab-drawer-layout
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media (max-width: 415px) {
+    
+
+    .fab{
+
+        height: 110px;
+        margin-right: 25px;
+        margin-top: 250px;
+        
+    }
+  }
+
 

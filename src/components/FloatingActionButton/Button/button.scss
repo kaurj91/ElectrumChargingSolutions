@@ -4,6 +4,7 @@
     width: 80px;
     border-radius: 63px;
     display: flex;
+    z-index: 1;
   
    
 }
@@ -15,3 +16,24 @@
     width: 45px;
     margin: auto;
 }
+
+
+@media (max-width: 415px) {
+
+
+    .button-layout
+    {
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+    
+    
+    }
+    
+
+    .fab-icon{
+
+        height: 35px;
+        width: 35px;
+    }
+  }
