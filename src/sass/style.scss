@@ -1,5 +1,10 @@
 
 // Imported but not included in the stylesheet.
 
+body{
+    margin: 0;
+}
 @import "variables";
 @import "mixins";
+@import "footer";
+@import "fonts";

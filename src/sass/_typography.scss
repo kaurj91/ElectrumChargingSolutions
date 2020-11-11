@@ -1,0 +1,43 @@
+h1 {
+	font-size: $heading-size--pc;
+	font-family: $font-main;
+	font-weight: 600;
+	margin: 0.67em 0;
+	line-height: 65px;
+	letter-spacing: .22px;
+	@include sp{
+		font-size: $heading-size--sp;
+		line-height: 33px;
+		letter-spacing: 0;
+	}
+}
+
+
+h2{
+	font-size: $title-size--pc;
+	font-family: $font-main;
+	font-weight: 600;
+	letter-spacing: .22px;
+	@include sp{
+		letter-spacing: 0;
+		font-size: $title-size--sp;
+	}
+}
+
+h3{
+    font-size: $title-size--pc;
+	font-size: $subtitle-size--pc;
+	font-weight: normal;
+	@include sp{
+		font-size: $subtitle-size--sp;
+	}
+}
+
+
+p {
+	font-family: $font-content;
+}
+
+a{
+    text-decoration: none;
+}
