@@ -5,7 +5,9 @@ export default class FAQ extends Component {
     render() {
         return (
             <div>
+
                 <FloatingActionButton />
+
             </div>
         )
     }

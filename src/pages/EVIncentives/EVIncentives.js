@@ -5,6 +5,7 @@ export default class EVIncentives extends Component {
     render() {
         return (
             <div>
+
                 <FloatingActionButton />
             </div>
         )
