@@ -5,7 +5,10 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-                <FloatingActionButton />
+                
+                    <h1>Homepage</h1>
+                    <FloatingActionButton></FloatingActionButton>
+                
             </div>
         )
     }
