@@ -1,0 +1,205 @@
+
+@mixin smallBox{
+    hr{
+        margin-left: 15%;
+        @include pc{
+            margin-left: 22%;
+            border: solid 4px $yellow;
+            width: 16%;
+        }
+    }
+    h1{
+        margin-left: 15%;
+        @include pc{
+            margin-left: 22%;
+        }
+    }
+    .box{
+        margin-left: 13% ;
+        width: 60%;
+        @include pc{
+            width: 72%;
+            margin-left: -4% ;
+        }
+    }
+} 
+.headerComponent{
+    
+    .HomeHeader{
+        background: $overlay url('../images/homebg.png') no-repeat bottom ;background-size: cover,cover;
+        hr{
+            width: 41%;
+            margin-left: 15%;
+            @include pc{
+                margin-left: 24%;
+                width: 16%;
+                border: solid 4px $yellow;
+            }
+        }
+        h1{
+            margin-left: 15%;
+            @include pc{
+            margin-left: 24%;
+                }
+        }
+    }
+
+    .faqHeader{
+        background: $overlay url('../images/faqbg.png') no-repeat bottom ;background-size: cover,cover;
+        @include smallBox;
+        hr{
+        width: 18%;
+        }
+        
+    }
+
+    .ProductsHeader{
+        background: $overlay url('../images/productsbg.png') no-repeat ;background-size: cover,cover;
+        @include smallBox;
+        .box{
+            margin: 0;
+            width: 100%;
+        }
+        h1{ 
+            text-align: center;
+            margin: 0;
+            width: 100%;
+            text-transform: none;
+
+        }
+    }
+
+    .contactHeader{
+        background: $overlay url('../images/contactbg.png') no-repeat bottom ;background-size: cover,cover;
+        hr{
+            width: 27%;
+        }
+        @include smallBox;
+    }
+
+    .eviHeader{
+        background: $overlay url('../images/incentivebg.png') no-repeat bottom ;background-size: cover,cover;
+        hr{
+            width: 39%;
+        }
+        h1{
+            width: 51%;
+            @include pc{
+                width: 41%; 
+            }
+        }
+        @include smallBox;
+    }
+
+    
+        hr{
+            border: solid 2px $yellow;
+            background-color: $yellow;
+            margin: 0;
+            margin-bottom: 7px;
+        }
+        h1{
+            font-size: 20px;
+            line-height: 28px;
+            color: $white;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            text-align: left;
+            width: min-content;
+        }
+        .box-container{
+            padding-bottom: 13%;
+            padding-top: 11%;
+        }
+        .box{
+            width: 77.5%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .contentDesktop{
+            display: none;
+        }
+        .top{
+            width: 70%;
+            height: 16px;
+            border: solid 2px $white;
+            border-bottom: solid 0px $white;
+        }
+        
+        .medium{
+            border-right: solid 2px $white;
+            width: 100%;
+        }
+
+        .bottom{
+            width: 70%;
+            height: 18px;
+            border: solid 2px $white;
+            border-top: solid 0px $white;
+        }
+
+        .contentPhone{
+            text-align: center;
+            line-height: 1.43;
+            color: $grey;
+            padding: 7% 10%;
+        }
+
+        @include sp{
+            .contentDesktop{
+                display: none;
+            }
+            .second-fp{
+                display: none;
+            }
+        }
+
+        @include pc{
+            margin-top: 150px;
+            .contentPhone{
+                display: none;
+            }
+            .contentDesktop{
+                display: inline;
+                color: $white;
+                font-size: 16px;
+                padding: 10%;
+                p{
+                    width: 85%;
+                    margin-left: 2%;
+                    margin-bottom: 0%;
+                    margin-top: 9%;
+                }
+            }
+
+            .top{
+                height: 45px;
+                border: solid 4px $white;
+                border-bottom: solid 0px $white;
+            }
+            
+            .medium{
+                border-right: solid 4px $white;
+
+            }
+
+            h1{
+                font-size: 42px;
+                line-height: 1.4;
+                letter-spacing: 1px;
+                margin-bottom: -10px;
+            }
+
+            .bottom{
+                width: 70%;
+                height: auto;
+                border: solid 4px $white;
+                border-top: solid 0px $white;
+            }
+
+        }
+    }
+    
