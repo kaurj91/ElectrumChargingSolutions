@@ -1,0 +1,37 @@
+.button-layout
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 63px;
+    display: flex;
+    z-index: 1;
+  
+
+    @include sp
+    {
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+
+    }
+   
+}
+
+
+.fab-icon
+{
+    height: 45px;
+    width: 45px;
+    margin: auto;
+
+    @include sp
+    {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+
+
+    
+  

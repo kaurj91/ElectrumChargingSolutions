@@ -9,6 +9,23 @@
     margin-right: 50px;
     margin-top: 450px;
    // position: fixed;
+
+   @include sp
+   {
+        height: 110px;
+        margin-right: 25px;
+        margin-top: 250px;
+    
+   }
 }
+
+.fab-drawer-layout
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
 
 
