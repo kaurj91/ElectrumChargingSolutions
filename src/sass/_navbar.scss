@@ -1,0 +1,201 @@
+
+
+
+
+//styles for toggleicon button
+
+div.toggle-button-line {
+    width:25px;
+    height:3px;
+    background-color:$darkGreen;
+    margin:6px 0px;
+}
+
+div.toggle-button {
+    
+    padding:0px;
+    
+}
+
+
+
+
+//styles for sidebar
+
+nav.sidebar {
+    width:400px !important;
+    position:fixed;
+    top:80px;
+    left:0px;
+    background-color:$white;
+    font-size:$text-size--sp;
+    font-family:$font-content;
+    font-weight:500;
+    height:100vh;
+
+    ul {
+        list-style-type:none;
+        padding:0px;
+        margin:0px;
+
+        li {
+            padding:10px 30px;
+
+            a {
+                color:$darkGreen;
+                text-transform:uppercase;
+            }
+              
+            a:hover {
+                color:$yellow
+            }
+        }
+    }
+
+    
+
+}
+
+
+
+
+a {
+    text-decoration:none;
+}
+
+
+//styles for the navigation bar
+
+header {
+    background-color:$white;
+    border-bottom:solid 1px lightgrey;
+    font-size:$text-size--pc;
+    font-family:$font-content;
+    font-weight:500;
+    
+}
+
+div.top-bar {
+    @include row;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-left:7%;
+    padding-top:25px;
+    ul.info {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+        display:flex;
+        padding-bottom:15px;
+    
+        a {
+            color:$darkGreen;
+            padding:30px;
+           
+        }
+    }
+
+    
+    
+}
+
+
+
+ 
+div.main {
+    
+    @include row;
+    margin-left:7%;
+    border-top:solid 2px $darkGreen;
+    
+    div.icon {
+        display:none;
+    }
+    
+    ul.menu {
+        @include row;
+        list-style-type:none; 
+        margin-left:-40px;
+       
+        
+        
+         a{
+             color:$darkGreen;
+             text-transform:uppercase;
+             padding:16px 20px;
+             
+         }
+    
+         .active {
+             border-top:solid 6px $yellow;
+         }
+    }
+
+    div.logo {
+        display:none;
+    }
+}
+
+
+//media query for medium devices 
+@include tb {
+    header {
+       
+
+        div.top-bar {
+            ul.info {
+                flex-direction:column;
+                 li{
+                     padding:8px !important;
+                     
+                 }
+                 
+            }
+        }
+        div.main {
+        ul li a{
+            padding: 17px 9px !important;
+            font-size:14px;
+        }
+
+    }
+        
+    }
+}
+
+
+//media query for small devices
+@include sp {
+    div.top-bar {
+       display:none;
+    }
+
+    div.main {
+        background-color:$white;
+        padding:7px 0px 0px 15px;
+        justify-content: space-between;
+        align-items: center;
+        border-top:none;
+        margin-left:0px;
+        position:fixed;
+        width:100%;
+        top:0;
+       
+        div.icon {
+            display:block;
+        }
+
+        nav.items {
+            display:none;
+        }      
+
+        
+
+        div.logo {
+            display:block;
+        }
+        
+    }
+}
+
+

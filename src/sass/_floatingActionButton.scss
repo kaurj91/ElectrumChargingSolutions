@@ -1,0 +1,31 @@
+.fab
+{
+    height: 179px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: right;
+    z-index: -1;
+    margin-right: 50px;
+    margin-top: 450px;
+   // position: fixed;
+
+   @include sp
+   {
+        height: 110px;
+        margin-right: 25px;
+        margin-top: 250px;
+    
+   }
+}
+
+.fab-drawer-layout
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
