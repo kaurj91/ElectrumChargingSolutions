@@ -27,8 +27,13 @@ $heading-size--pc: 65px;
 $heading-size--sp: 30px;
 $title-size--pc: 50px;
 $title-size--sp: 22px;
-$subtitle-size--pc: 35px;
+$subtitle-size--pc: 20px;
 $subtitle-size--sp: 17px;
 $text-size--pc: 16px;
 $text-size--sp: 15px;
 
+
+
+// overlay
+
+$overlay: linear-gradient(90deg, rgba(172,242,233,.77) 0%, rgba(68,209,191,.77) 21%, rgba(112,188,179,.77)),$green;

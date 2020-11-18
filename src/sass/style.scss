@@ -2,15 +2,28 @@
 // Imported but not included in the stylesheet.
 
 
+
+
+body{
+    margin: 0;
+   
+}
+
+* {
+  
+    box-sizing:border-box;
+  }
+@import "reset";
+
 @import "variables";
 @import "mixins";
-
+@import "typography";
 @import "footer";
 @import "fonts";
 @import "button";
 @import "buttonDrawer";
 @import "floatingActionButton";
-
 @import "navbar";
 @import "footer";
+@import "header";
 
