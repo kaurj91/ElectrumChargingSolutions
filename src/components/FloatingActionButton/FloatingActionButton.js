@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Button from "./Button";
 import ButtonDrawer from "./ButtonDrawer";
 import Calendar from "../../icons/Schedule Call.png";
-
+import Mobile from "../../icons/mobile.png";
 
 export default class FloatingActionButton extends Component {
     constructor(props) {
@@ -30,9 +30,9 @@ export default class FloatingActionButton extends Component {
                     
                     <div onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
                         <div>
-                         {this.state.hover && <ButtonDrawer color="#267C85" text="Get on an instant <br /> Phone Consultation" />}
+                         {this.state.hover && <ButtonDrawer color="#267C85" text="Get on an instant Phone Consultation" />}
                         </div>
-                        <Button color="#267C85" icon={Calendar} />
+                        <Button color="#267C85" icon={Mobile} />
                     </div>
                 </div>
                 <div className="fab-drawer-layout">

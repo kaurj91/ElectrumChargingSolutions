@@ -1,6 +1,18 @@
 @font-face {
-    font-family: 'Acumin';
+    font-family: 'AcuminLighter';
     src: url('../assets/fonts/Acumin\ Variable\ Concept.ttf') format('truetype');
     font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AcuminRegular';
+    src: url('../assets/fonts/ConceptRegular.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AcuminMedium';
+    src: url('../assets/fonts/ConceptMedium.ttf') format('truetype');
     font-style: normal;
 }
