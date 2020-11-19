@@ -1,6 +1,6 @@
 h1 {
 	font-size: $heading-size--pc;
-	font-family: $font-main;
+	font-family: $font-lighter;
 	font-weight: 600;
 	margin: 0.67em 0;
 	line-height: 65px;
@@ -15,7 +15,7 @@ h1 {
 
 h2{
 	font-size: $title-size--pc;
-	font-family: $font-main;
+	font-family: $font-lighter;
 	font-weight: 600;
 	letter-spacing: .22px;
 	@include sp{
@@ -35,7 +35,7 @@ h3{
 
 
 p {
-	font-family: $font-content;
+	font-family: $font-lighter;
 }
 
 a{
