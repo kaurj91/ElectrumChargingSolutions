@@ -5,7 +5,6 @@ import FAQ from "./FAQ";
 import Contact from "./Contact";
 import Home from "./Home";
 import Products from "./Products";
-import Layout from "../components/Layout"
 import "../sass/style.scss";
 
 
@@ -14,7 +13,7 @@ import "../sass/style.scss";
 export default class index extends Component {
     render() {
         return (
-            <Layout>
+        
                     <Router>
                         <Home path="/" />
                         <Products path="/Products" />
@@ -22,7 +21,7 @@ export default class index extends Component {
                         <EVIncentives path="/EVIncentives" />
                         <Contact path="/Contact" />
                     </Router>
-            </Layout>
+            
         )
     }
 }
