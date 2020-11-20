@@ -3,16 +3,6 @@
 
 
 
-
-body{
-    margin: 0;
-   
-}
-
-* {
-  
-    box-sizing:border-box;
-  }
 @import "reset";
 
 @import "variables";
@@ -26,4 +16,4 @@ body{
 @import "navbar";
 @import "footer";
 @import "header";
-
+@import "contactForm";
