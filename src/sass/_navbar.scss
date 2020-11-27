@@ -86,12 +86,22 @@ div.top-bar {
         padding:0;
         margin:0;
         display:flex;
-        padding-bottom:20px;
+        padding-bottom:19px;
     
         a {
             color:$darkGreen;
-            padding:30px;
-           
+            padding:23px;
+            font-size:18px;
+        }
+
+        img.icon {
+            width:17px;
+            margin-right:8px;
+            
+        }
+
+        img.clock {
+            margin-bottom:-2px;
         }
     }
 

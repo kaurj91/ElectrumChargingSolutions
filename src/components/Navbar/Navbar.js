@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import Logo from '../../images/Logo.png';
+import Clock from '../../icons/clock.png';
+import Email from '../../icons/email.png';
 import { businessInfo } from '../../theme/bussinesInfo';
 import Togglebutton from './Togglebutton';
 import Sidebar from './Sidebar';
@@ -25,8 +27,8 @@ import Sidebar from './Sidebar';
         </div>
         <div className="items">
         <ul className="info">
-                <li className="item"><a href="">{businessInfo.phone}</a></li>
-                <li className="item"><a href="">{businessInfo. email}</a></li>
+                <li className="item"><a href=""><img className="icon clock" src={Clock} alt="icon"/>{businessInfo.phone}</a></li>
+                <li className="item"><a href=""><img className="icon email" src={Email} alt="icon"/>{businessInfo. email}</a></li>
          </ul>
         </div>
          </div>

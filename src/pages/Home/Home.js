@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import FloatingActionButton from '../../components/FloatingActionButton';
 import Layout from "../../components/Layout";
 import Header from "../../components/Header";
+import Cards from '../../components/Cards/Cards';
 
 export default class Home extends Component {
     render() {
@@ -11,6 +12,7 @@ export default class Home extends Component {
                     
                     <FloatingActionButton></FloatingActionButton>
                     <Header />
+                    <Cards/>
             </Layout>
         )
     }
