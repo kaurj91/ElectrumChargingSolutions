@@ -75,10 +75,13 @@ section.contact {
             margin:20px;
 
             input[type="submit"] {
-                @include formfield;
                 width:100px;
                 background-color:$grey;
                 color:white;
+                border:none;
+                outline:none;
+                padding:12px 20px;
+                border-radius:2px;
             }
         }
         
