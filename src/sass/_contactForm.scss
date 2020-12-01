@@ -1,3 +1,9 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
 @mixin formfield {
     background-color:$white;
                 border:none;
@@ -13,12 +19,13 @@ section.contact {
     font-size:$text-size--pc;
     font-family:$font-lighter;
     background-color:$lightGreen;
-    padding:100px 70px;
+    padding:100px 8%;
     display:flex;
-
+    justify-content:space-between;
     
 
     form {
+        flex-basis:47%;
         font-size:$text-size--pc;
         font-family: $font-lighter;
         color:$grey;
@@ -26,12 +33,16 @@ section.contact {
         flex-grow:1;
         div.row {
             display:flex;
-           
+            justify-content:space-between;
         div.field {
-            flex-grow:1;
+            flex-basis:45%;
             display:flex;
             flex-direction: column;
             margin:10px;
+        }
+
+        div.message {
+            flex-basis:100%;
         }
             
 
@@ -47,7 +58,7 @@ section.contact {
 
             textarea {
                 @include formfield;
-               
+                
             }
 
             select {
@@ -75,6 +86,7 @@ section.contact {
 
 
     article  {
+        flex-basis:50%;
         flex-grow:1;
         display:flex;
         flex-direction:column;

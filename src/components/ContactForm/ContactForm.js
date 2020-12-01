@@ -50,7 +50,7 @@ const ContactForm = () => {
             </div>
                 
             <div className="row">
-                <div className="field">
+                <div className="field message">
                 <label htmlFor="">Message</label>
                 <textarea  rows="7" ></textarea>
                 </div>
