@@ -36,7 +36,7 @@ class HeaderContent extends Component {
     }
     render() {
         const { isMobile } = this.state;
-        console.log(isMobile)
+
         let content = this.props.content
         return (
             (content.path !== "/Products")?(
