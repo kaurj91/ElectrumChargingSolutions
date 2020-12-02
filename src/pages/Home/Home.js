@@ -6,9 +6,7 @@ import Header from "../../components/Header";
 export default class Home extends Component {
     render() {
         return (
-            <Layout>
-                
-                    
+            <Layout>    
                     <FloatingActionButton></FloatingActionButton>
                     <Header />
             </Layout>
