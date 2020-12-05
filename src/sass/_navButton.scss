@@ -1,0 +1,26 @@
+.nav-button-text
+{
+    font-family: $font-lighter;
+    font-size: 25px;
+    color: $grey;
+    text-align: center;
+}
+
+.nav-button-wrapper
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.nav-button
+{
+    background-color:$yellow;
+    border: 0px;
+    width: 129px;
+    height: 40px;
+    color: $white;
+    margin: 10px auto;
+
+}
