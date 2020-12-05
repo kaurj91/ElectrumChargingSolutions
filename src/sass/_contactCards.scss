@@ -1,0 +1,48 @@
+.contact-cards-wrapper
+{
+    height: auto;
+    font-family: $font-lighter;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 0px;
+}
+
+.cardHeader,
+.contact-tel
+{
+    font-size: 25px;
+    color: $darkGreen;
+    margin: 20px 0px;
+    text-align: center;
+    
+}
+
+.contact-tel
+{
+    color: $grey;
+    margin: auto;
+}
+
+.contact-cards
+{
+    display: flex;
+    justify-content: center;
+}
+
+.card-button
+{
+    width: 135px;
+    height: 47px;
+    font-size: 25px;
+    background-color: $grey;
+    border: 0px;
+    color: $white;
+    margin: 30px auto;
+}
+
+.contact-info
+{
+    display: flex;
+    flex-direction: column;
+}

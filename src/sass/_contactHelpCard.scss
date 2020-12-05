@@ -1,0 +1,24 @@
+.card-wrapper
+{
+    width: 300px;
+    height: 307px;
+    background-color: $darkGreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 15px 30px;
+}
+
+.card-icons
+{
+    height: 105px;
+    width: 105px;
+    margin: 0px auto;
+}
+
+.card-description
+{
+    font-size: 25px;
+    color: $white;
+}
