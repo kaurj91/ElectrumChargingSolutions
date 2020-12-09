@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Layout from "../../components/Layout";
 import Link from 'gatsby-link';
 import FloatingActionButton from '../../components/FloatingActionButton';
+
 import EVmobile from "./EVmobile"
 import EVdesktop from "./EVdesktop"
 import Header from "../../components/Header";
@@ -96,6 +97,7 @@ export default class EVIncentives extends Component {
 
         return (
             <Layout>
+                 <FloatingActionButton />
                 <Header />
                 <div className="EVincentives">
                     <h1>Electric Vehicle Incentive Programs</h1>
@@ -104,8 +106,11 @@ export default class EVIncentives extends Component {
                     <h6>Apply now</h6>
                     <p className="description">You can check your eligibility at the BC Hydro website. Learn how much you can save with these programs.</p>
                     <div className="contact"><Link to="/Contact">Contact us to learn more</Link></div>
-                </div>
-                <FloatingActionButton />
+                    </div>
+
+
+               
+               
             </Layout>
         )
     }
