@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Layout from "../../components/Layout";
+import EMotive from "../../components/EMotive";
 import FloatingActionButton from '../../components/FloatingActionButton';
 
 export default class FAQ extends Component {
@@ -8,6 +9,7 @@ export default class FAQ extends Component {
             <Layout>
 
                 <FloatingActionButton />
+                <EMotive />
 
             </Layout>
         )

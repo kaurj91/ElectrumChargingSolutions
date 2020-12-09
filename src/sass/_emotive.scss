@@ -1,0 +1,97 @@
+.guide-title
+{
+    color: $darkGreen;
+    font-size: 25px;
+    font-family: $font-lighter;
+
+    @include sp
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+
+.guide-text
+{
+    color: $grey;
+    font-size: 12px;
+    font-family: $font-lighter;
+    margin: 10px 0px;
+
+    @include sp
+    {
+        text-align: center;
+        
+    }
+
+}
+
+
+.emotive-wrapper
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px;
+
+    @include sp
+    {
+        flex-direction: column;
+    }
+}
+
+.ev-button
+{
+    background-color: $grey;
+    border: 0px;
+    color: $white;
+    width: 100px;
+    height: 35px;
+    margin: 10px 0px;
+
+    @include sp
+    {
+        margin: 10px auto;
+    }
+   
+}
+
+
+.evmotive-logo
+{
+    height: 60px;
+    width: 190px;
+    margin: 20px;
+
+
+    @include sp{
+
+        height: 50px;
+        width: 150px;
+        margin: 20px auto;
+
+    }
+}
+
+
+
+.emotive-logo-wrapper{
+
+    @include sp
+    {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+}
+
+
+.guide-wrapper
+{
+    @include sp
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}

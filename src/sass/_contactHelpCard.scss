@@ -8,6 +8,15 @@
     justify-content: center;
     text-align: center;
     margin: 15px 30px;
+
+
+    @include sp
+    {
+        height: 130px;
+        display: flex;
+        flex-direction: row-reverse;
+    
+    }
 }
 
 .card-icons
@@ -15,10 +24,24 @@
     height: 105px;
     width: 105px;
     margin: 0px auto;
+
+    @include sp
+    {
+        height: 80px;
+        width: 80px;
+        margin: auto 15px;
+    }
 }
 
 .card-description
 {
     font-size: 25px;
     color: $white;
+
+    @include sp
+    {
+        font-size: 18px;
+        text-align: center;
+        margin: auto 15px;
+    }
 }

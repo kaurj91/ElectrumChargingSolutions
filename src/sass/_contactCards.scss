@@ -15,6 +15,12 @@
     color: $darkGreen;
     margin: 20px 0px;
     text-align: center;
+
+
+    @include sp
+    {
+        font-size: 20px;
+    }
     
 }
 
@@ -28,6 +34,12 @@
 {
     display: flex;
     justify-content: center;
+
+    @include sp
+    {
+        flex-direction: column;
+        margin: auto;
+    }
 }
 
 .card-button
@@ -39,6 +51,13 @@
     border: 0px;
     color: $white;
     margin: 30px auto;
+
+    @include sp
+    {
+        width: 110px;
+        height: 35px;
+        font-size: 15px;
+    }
 }
 
 .contact-info
