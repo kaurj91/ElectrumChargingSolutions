@@ -4,6 +4,11 @@
     font-size: 25px;
     color: $grey;
     text-align: center;
+
+    @include sp
+    {
+        font-size: 18px;
+    }
 }
 
 .nav-button-wrapper
@@ -22,5 +27,12 @@
     height: 40px;
     color: $white;
     margin: 10px auto;
+
+    @include sp
+    {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
 
 }
