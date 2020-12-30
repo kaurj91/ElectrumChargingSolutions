@@ -5,6 +5,8 @@ import Header from "../../components/Header";
 import Cards from '../../components/Cards/Cards';
 import NavButton from "../../components/NavButton";
 
+import CertifiedIInstallers from '../../components/CertifiedInstallers';
+
 export default class Home extends Component {
     render() {
         return (
@@ -13,7 +15,9 @@ export default class Home extends Component {
                     
                     <FloatingActionButton></FloatingActionButton>
                     <Header />
+                    <CertifiedIInstallers />
                     <Cards/>
+
                     <NavButton text="Need help with our products and services?" button="Contact us today!" nav="/Contact"/>
             </Layout>
         )

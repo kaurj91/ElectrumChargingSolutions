@@ -1,0 +1,22 @@
+.installer-logo
+{
+    width: 220px;
+    height: 180px;
+}
+
+.logo-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.logo-text
+{
+    font-family: $font-lighter;
+    color: $grey;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
