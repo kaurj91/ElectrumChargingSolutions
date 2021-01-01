@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 const Card = (props) => {
     return (
-        <article className={props.class}>
+        <article  className={props.class}>
             
            <div className="icon">
                 <img src={props.img} alt=""/>

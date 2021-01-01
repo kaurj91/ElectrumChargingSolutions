@@ -1,0 +1,153 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+
+section.services-lg {
+    margin:100px 8%;
+    font-family:$font-lighter;
+    
+    h2 {
+        text-align:center;
+        font-size:42px !important;
+        margin:0px;
+    }
+
+    
+   div.service {
+       
+       background-color:white;
+       display:flex;
+       flex-wrap:wrap;
+      
+        article {
+            background-color:white;
+            flex-basis:40%;
+            display:flex;
+            flex-direction:column;
+            padding:30px;
+            margin:0px;
+            align-items:center;
+            justify-content:space-between;
+             img {
+               order:1 !important;
+               height:90px;
+               width:90px;
+            }
+
+            h4 {
+                order:2 !important;
+                font-size:25px;
+                margin-bottom:30px;
+            }
+
+            p {
+                order:3;
+                text-align:center;
+            }
+        }
+    }
+
+}
+
+section.services-sm {
+    display:none;
+}
+
+
+
+    @media screen and (max-width:786px)  {
+
+
+        section.services-sm {
+            display:block!important;
+            margin:40px 3%;
+            font-family:$font-lighter;
+    
+             h2 {
+            text-align:center;
+            font-size:30px;
+            margin-top:40px;
+             }
+
+             div.slider {
+                padding:50px 0px !important;
+                display:flex;
+                flex-direction:row;
+                align-items:center;
+                justify-content:center;
+                .rightArrow {
+                    font-size:25px;
+                    
+                    
+                    &:hover {
+                        cursor:pointer;
+                    }
+                }
+        
+                 div.service {
+                     width:100%;
+                 }
+                    
+        
+                    .leftArrow {
+                        font-size:25px;
+                        
+                    }
+                
+        
+                
+        
+            }
+
+            div.service {
+                background-color:white;
+
+                article {
+                    background-color:white;
+                    flex-basis:40%;
+                    display:flex;
+                    flex-direction:column;
+                    padding:10px;
+                    margin:0px;
+                    align-items:center;
+                    justify-content:space-between;
+                  
+                    img {
+                        order:1;
+                        height:70px;
+                        width:70px;
+                     }
+         
+                     h4 {
+                         order:2;
+                         font-size:22px;
+                         margin-top:10px;
+                         margin-bottom:20px;
+                         font-weight:bold;
+                     }
+         
+                     p {
+                        order:3;
+                         text-align:center;
+                     }
+                }
+            }
+
+
+        }
+
+        section.services-lg {
+            display:none;
+        }
+        
+    }
+
+
+    
+
+
+    
+    
