@@ -98,7 +98,7 @@ export default class EVIncentives extends Component {
         return (
             <Layout>
                  <FloatingActionButton />
-                <Header />
+                 <Header />
                 <div className="EVincentives">
                     <h1>Electric Vehicle Incentive Programs</h1>
                     {(this.state.isMobile)?
