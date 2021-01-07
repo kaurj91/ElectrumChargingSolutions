@@ -40,11 +40,12 @@ nav.sidebar {
         margin:0px;
 
         li {
-            padding:10px 30px;
-
+            padding:10px 20px !important;
+                
             a {
                 color:$darkGreen;
                 text-transform:uppercase;
+                font-size:17px;
             }
               
             a:hover {
@@ -81,6 +82,7 @@ div.top-bar {
     align-items:flex-end;
     margin-left:8%;
     padding-top:25px;
+    
     ul.info {
         list-style-type:none;
         padding:0;
@@ -175,6 +177,7 @@ div.main {
     }
 
     div.main {
+      
         background-color:$white;
         padding:7px 20px 0px 15px;
         justify-content: space-between;

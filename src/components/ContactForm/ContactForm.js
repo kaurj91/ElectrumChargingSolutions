@@ -60,15 +60,15 @@ const ContactForm = () => {
                 </div>
                     
             </form>
-           <article >
+           <article className="info" >
               <div className="map">
-              <iframe frameBorder="0" style={{ width: "100%", height: "250px"}} 
+              <iframe frameBorder="0" style={{ width: "550px", height: "260px"}} 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2608.2143907285185!2d-122.69980768484184!3d49.177518279320026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d1468161bdb1%3A0x3a7565ea47ae76f0!2sElectrum%20Charging%20Solutions!5e0!3m2!1sen!2sca!4v1605897688537!5m2!1sen!2sca">
             </iframe>
 
               </div>
-              <div className="contact-info">
-                  <ul>
+              <div >
+                  <ul className="buissInfo">
                       <li>Tel: {businessInfo.phone}</li>
                       <li>Email: {businessInfo.email}</li>
                       <li>Address: {businessInfo.address}, {businessInfo.location}</li>

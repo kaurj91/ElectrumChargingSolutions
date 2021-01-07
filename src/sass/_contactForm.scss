@@ -19,18 +19,17 @@ section.contact {
     font-size:$text-size--pc;
     font-family:$font-lighter;
     background-color:$lightGreen;
-    padding:100px 8%;
+    padding:70px 8%;
     display:flex;
     justify-content:space-between;
     
 
     form {
-        flex-basis:47%;
+        flex-basis:48%;
         font-size:$text-size--pc;
         font-family: $font-lighter;
         color:$grey;
-        padding-right:90px;
-        flex-grow:1;
+        
         div.row {
             display:flex;
             justify-content:space-between;
@@ -38,7 +37,7 @@ section.contact {
             flex-basis:45%;
             display:flex;
             flex-direction: column;
-            margin:10px;
+            margin:15px 10px;
         }
 
         div.message {
@@ -88,24 +87,27 @@ section.contact {
     }
 
 
-    article  {
+    article.info {
         flex-basis:50%;
-        flex-grow:1;
         display:flex;
         flex-direction:column;
-        
+        margin:0px;
         
         div.map {
-            
-            margin-top:25px;
-            margin-bottom:20px;
+            margin-top:-70px;
         }
         
-        div.contact-info {
-            ul{
+        div{
+            
+            ul.buissInfo{
+                margin-top:30px;
+               
                 li {
+                   
                     color:$darkGreen;
                     padding:5px;
+                    font-weight:500;
+                    font-size:18px;
                 }
             }
         }
@@ -113,10 +115,17 @@ section.contact {
 
 }
 
+@media screen and (max-width:950px) {
 
-@include tb {
+  
+  div.map {
+      width:100px;
+      margin-right:50px;
+  }
+}
+@media screen and (max-width:768px) {
     section.contact {
-        flex-direction:column;
+        flex-direction:column !important;
         padding:0px;
         form {
             padding:30px 10px;
@@ -127,13 +136,11 @@ section.contact {
         }
 
 
-        article {
+        article.info {
             display:none;
             padding:0px 10px;
 
-            div.map {
-                margin:20px 0px;
-            }
+            
         }
     }
 }
