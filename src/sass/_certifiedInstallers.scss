@@ -1,0 +1,48 @@
+.installer-wrapper
+{
+    background-image: url("../images/installer.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    border: 0px;
+    overflow: visible;
+}
+
+.wrapper-shadow
+{
+    height: 492px;
+    background-color: #00000069;
+  
+    
+
+
+.ins-wrapper
+{
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+   
+}
+}
+
+.installer{
+
+    width: 1408px;
+    height: 395px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+   margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.installer-text
+{
+    color: $white;
+    font-family: $font-lighter;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 120px;
+}
